@@ -1,0 +1,11 @@
+:root {
+  /* colors */
+  --text-main-color: #868686;
+  --text-accent-color: #e29c14;
+  --light-accent-color: #f6f6f6;
+  --light-color: white;
+
+  /* fonts */
+  --text-font: 1rem;
+  --text-heading-font: 2rem;
+}

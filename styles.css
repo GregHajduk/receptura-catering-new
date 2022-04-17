@@ -1,0 +1,67 @@
+.header {
+  height: 100vh;
+  width: 100%;
+}
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 6rem;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--light-accent-color);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex: 2;
+}
+.nav-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-link a {
+  color: var(--text-accent-color);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.main-container {
+  height: calc(100vh - 6rem);
+  padding-top: 6rem;
+  display: flex;
+  align-items: center;
+}
+.main-title {
+  flex: 1;
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: -5px;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+.main-desc {
+  flex: 1;
+  font-family: "Alex Brush", cursive;
+  font-size: 3rem;
+  color: var(--text-main-color);
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+.cta-button {
+  background-color: var(--text-accent-color);
+  color: var(--light-color);
+  padding: 1rem 1.75rem;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}

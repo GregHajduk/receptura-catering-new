@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+  width: 100%;
+}
+p {
+  color: var(--text-main-color);
+}
+h1,
+h2,
+h3 {
+  color: var(--text-accent-color);
+}
+.site-container {
+  max-width: 70rem;
+  margin: 0 auto;
+}
