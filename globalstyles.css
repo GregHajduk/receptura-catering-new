@@ -5,12 +5,13 @@
 }
 body {
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
 }
 li {
-  list-style: none;
+  list-style:circle;
 }
 img {
   display: block;
@@ -18,13 +19,22 @@ img {
 }
 p {
   color: var(--text-main-color);
+  font-size: 1.125rem;
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: var(--text-accent-color);
 }
 .site-container {
-  max-width: 70rem;
+  max-width: 65rem;
   margin: 0 auto;
 }
+h2{
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  font-weight: 900;
+}
+

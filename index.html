@@ -7,37 +7,210 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:ital,wght@0,400;0,700;1,500;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="styles.css">
    <link rel="stylesheet" href="variables.css">
    <link rel="stylesheet" href="globalstyles.css">
+   <link rel="stylesheet" href="mediaQuerries.css">
     <title>Document</title>
   </head>
   <body>
       <div class="site-container">
-            <div class="header">
+            <section class="header">
               <nav class="navbar">
                   <div class="logo-container">
-                      <a href="/" class="logo"><img src="./images/Receptura_logo 1.svg" alt="logo"></a>
+                      <a href="/" class="logo">
+                        <img src="./images/Receptura_logo 1.svg" alt="logo">
+                    </a>
                   </div>
                   <ul class="nav-links">
-                      <li class="nav-link"><a href="">o nas</a></li>
-                      <li class="nav-link"><a href="">oferta</a></li>
-                      <li class="nav-link"><a href="">kontakt</a></li>
+                      <li class="nav-link"><a href="#onas">o nas</a></li>
+                      <li class="nav-link"><a href="#oferta">oferta</a></li>
+                      <li class="nav-link"><a href="#kontakt">kontakt</a></li>
                   </ul>
                 </nav>
-                <div class="main-container">
+                <div class="header-wrapper">
                     <div class="main-text">
-                        <h1 class="main-title">Receptura Catering</h1>
-                        <h4 class="main-desc">Kuchnia tradycyjna i nowatorska</h4>
-                        <button class="cta-button">napisz do nas</button>
+                        <h1 class="main-title">Receptura<br/>Catering</h1>
+                        <h4 class="main-desc">Kuchnia tradycyjna i<br/>nowatorska</h4>
+                        <button class="button">napisz do nas</button>
                     </div>
-                    <div class="main-image"><img src="./images/hamburger.png" alt="hamburger"></div>
+                    <div class="main-img-container">
+                        <img src="./images/hamburger.png" alt="hamburger">
+                    </div>
+                </div>
+                <div class="lettuce-img-container"> 
+                    <img src="./images/salad.png" alt="lettuce">
+                </div>
+                <div class="tomato-img-container">
+                    <img src="./images/tomatoes.png" alt="tomato">
                 </div>
                 
-            </div>
-        </div>
-      <src src="app.js" />
-    </body>
-  </html>
+            </section>
+            <section class="about">
+              <div class="about-top">
+                <div class="about-img-container">
+                  <img src="./images/healthy-food.jpg" alt="healthy food">
+                </div>
+                <div class="about-text-wrapper">
+                 <h4 class="about-title">Doswiadczenie wypracowane latami, 
+                  tysiace zadowolonych gosci</h4>
+                 <p class="about-text">Pracujemy w braży gastronomicznej całe życie, doświadczenie zdobywaliśmy w różnych miejscach, od zakładów cukierniczo piekarniczych, burgerowniach, kebabach po restauracje z odznaczeniami Michelin, od stanowiska pomocy kuchennej po szefa kuchni czy menadżera firmy cateringowej.</p>
+                </div>
+              </div>
+              <div class="about-bottom">
+                <div class="about-text-wrapper">
+                  <h4 class="about-title">Serce wlozone w prace to jedyna gwarancja jakosci</h4>
+                  <p class="about-text">Stworzyliśmy firmę, w której będziemy mogli wykorzystać nasze wieloletnie doświadczenie w branży gastronomicznej a jednocześnie czuć, że to co robimy sprawia nam mnóstwo radości i satysfakcji. Teraz ta wiedza i doświadczenie pomoże nam sprostać nawet najbardziej wymagającym i zaskakującym zleceniom.</p>
+                </div>
+                <div class="about-img-container">
+                  <img src="./images/tray-with-finger-food.jpg" alt="tray with finger food">
+                </div>
+              </div>
+            </section>
+            <section class="offer">
+              <h2 class="offer-title">Przykladowe zestawy menu, ktore dostosowujemy wedle zyczenia klienta</h2>
+              <div class="menu-types-wrapper">
+                <div class="menu-type">
+                  <h4 class="menu-type-title">Finger
+                    Food</h4>
+                    <div class="line-separator"></div>
+                    <div class="menu-item">
+                      <div class="menu-item-title-container">
+
+                        <h5 class="menu-item-title">MENU NR 1</h5>
+                        <p class="menu-item-toggler">+</p>
+                      </div>
+                        <ul class="menu-positions-wrapper">
+                          <li class="menu-position">Mini burger wołowy</li>
+                          <li class="menu-position">Kanapeczka z pastą z suszonych pomidorów</li>
+                          <li class="menu-position">Vol au vent z pastą drobiową</li>
+                          <li class="menu-position">Tartaletka ze szpinakiem i fetą</li>
+                          <li class="menu-position">Koreczki z pasztetem wegetariańskim</li>
+                          <li class="menu-position">Hummus z warzywami</li>
+                          <li class="menu-position">Mini sałatka grecka</li>
+                        </ul>
+                      </div>
+                    <div class="menu-item">
+                      <div class="menu-item-title-container">
+
+                        <h5 class="menu-item-title">MENU NR 1</h5>
+                        <p class="menu-item-toggler">+</p>
+                      </div>
+                        <ul class="menu-positions-wrapper">
+                          <li class="menu-position">Mini burger wołowy</li>
+                          <li class="menu-position">Kanapeczka z pastą z suszonych pomidorów</li>
+                          <li class="menu-position">Vol au vent z pastą drobiową</li>
+                          <li class="menu-position">Tartaletka ze szpinakiem i fetą</li>
+                          <li class="menu-position">Koreczki z pasztetem wegetariańskim</li>
+                          <li class="menu-position">Hummus z warzywami</li>
+                          <li class="menu-position">Mini sałatka grecka</li>
+                        </ul>
+                      </div>
+                    </div>
+                <div class="menu-type">
+                  <h4 class="menu-type-title">Dania
+                    garmazeryjne</h4>
+                    <div class="line-separator"></div>
+                    <div class="menu-item">
+                      <div class="menu-item-title-container">
+
+                        <h5 class="menu-item-title">MENU NR 2</h5>
+                        <p class="menu-item-toggler">+</p>
+                      </div>
+                        <ul class="menu-positions-wrapper">
+                          <li class="menu-position">Mini burger wołowy</li>
+                          <li class="menu-position">Kanapeczka z pastą z suszonych pomidorów</li>
+                          <li class="menu-position">Vol au vent z pastą drobiową</li>
+                          <li class="menu-position">Tartaletka ze szpinakiem i fetą</li>
+                          <li class="menu-position">Koreczki z pasztetem wegetariańskim</li>
+                          <li class="menu-position">Hummus z warzywami</li>
+                          <li class="menu-position">Mini sałatka grecka</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="features">
+                  <div class="features-wrapper">
+                    <div class="feature">
+                      <div class="icon-container">
+                        <img src="./images/fresh ingredients.svg" alt="">
+                      </div>
+                      <div class="feature-text">Wybieramy tylko najświeższe produkty, gdyż zdrowie jest najważniejsze</div>
+                    </div>
+                    <div class="feature">
+                      <div class="icon-container">
+                        <img src="./images/restaurant quality.svg" alt="">
+                      </div>
+                      <div class="feature-text">Nasze potrawy zawsze wyglądają jakby zostały zaserwowane w eleganckiej restauracji
+
+                      </div>
+                    </div>
+                    <div class="feature">
+                      <div class="icon-container">
+                        <img src="./images/ecologic packaging.svg" alt="">
+                      </div>
+                      <div class="feature-text">Nasze opakowania są w pełni ekologiczne i spełniają najwyższe standardy
+
+                      </div>
+                    </div>
+                    <div class="feature">
+                      <div class="icon-container">
+                        <img src="./images/price.svg" alt="">
+                      </div>
+                      <div class="feature-text">Posiadamy szerokie grono lokalnych dostawców, dzięki czemu nasze ceny są tak przystępne
+
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="announcement">
+                  <h2 class="announcement-title">Dążymy do doskonałości</h2>
+                  <p class="announcement-text">W odpowiedzi na potrzeby rynku i oczekiwania naszych zleceniodawców nieustannie dodajemmy nowe usługi. Robimy wszystko, aby sprostać Waszym potrzebom, bo to dzięki Wam mamy możliwość robienia tego, na czym się znamy i co kochamy. Jeśli mają Państwo jakieś sugestie zachęcamy do komentowania na naszych profilach społecznościowych.</p>
+                  <p class="announcement-text">Jeśli planujesz wykwintną imprezę, ważne spotkanie biznesowe, chrzciny, badź po prostu robisz spotkanie ze znajomymi, stronę kulinarną powierz nam. Zadbamy o każdy szczegół.</p>
+                  <div class="social-icons-container">
+                    <a class="social-icon">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a class="social-icon">
+                      <i class="fa-brands fa-instagram-square"></i>
+                    </a>
+                  </div>
+                  <div class="announcement-img-container"></div>
+                </section>
+                <section class="contact">
+                  <h2 class="contact-title">Skontaktuj się z nami</h2>
+                  <form action="">
+                      <div class="personal-info">
+                        <div class="info-item">
+                          
+                          <label for="name">imie</label>
+                          <input type="text" id="name" name="firstname" placeholder="Twoje imie">
+                        </div>
+                        <div class="info-item">
+
+                          <label for="email">email</label>
+                          <input type="text" id="email" name="email" placeholder="Twoj email">
+                        </div>
+                      </div>
+                    <label for="subject">wiadomosc</label>
+                    <textarea id="subject" name="subject" placeholder="Napisz do nas wiadomosc" style="height:200px"></textarea>
+                    <button class="button" type="submit" >wyslij</button>
+                  </form>
+                </section>
+        <script src="./app.js"></script>
+        </body>
+      </html>
+
                 
+                
+                
+                
+                   
+                       
+  
+  .
+                
+
                   
