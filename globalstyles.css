@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -11,7 +12,7 @@ a {
   text-decoration: none;
 }
 li {
-  list-style:circle;
+  list-style: circle;
 }
 img {
   display: block;
@@ -27,14 +28,21 @@ h3,
 h4 {
   color: var(--text-accent-color);
 }
-.site-container {
+.wrapper {
   max-width: 65rem;
   margin: 0 auto;
+  padding: 7rem 2rem;
 }
-h2{
+h2 {
   font-size: 2rem;
   line-height: 1.5;
   margin-bottom: 3rem;
   font-weight: 900;
+  text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+  .wrapper {
+    padding: 7rem 1rem 5rem 1rem;
+  }
+}
