@@ -195,25 +195,25 @@
                 <section id="contact"  class="contact">
                     <div class="wrapper">
                       <h2 class="contact-title">Skontaktuj się z nami</h2>
-                        <form action="">
+                        <form action="https://formsubmit.co/info@recepturacatering.pl" method="POST" >
                             <div class="personal-info">
                               <div class="info-item">
                                 
                                 <label for="name">imię</label>
-                                <input type="text" id="name" name="firstname" placeholder="Twoje imię">
+                                <input type="text" id="name" name="firstname" placeholder="Twoje imię" required>
                               </div>
                               <div class="info-item">
 
                                 <label for="email">email</label>
-                                <input type="text" id="email" name="email" placeholder="Twój email">
+                                <input type="email" id="email" name="email" placeholder="Twój email" required>
                               </div>
                               <div class="info-item">
                                 <label for="phone">numer tel</label>
-                                <input type="text" id="phone" name="phone" placeholder="Twój numer tel">
+                                <input type="tel" id="phone" name="phone" placeholder="Twój numer tel" required>
                               </div>
                             </div>
                           <label for="subject">wiadomość</label>
-                          <textarea id="subject" name="subject" placeholder="Napisz do nas wiadomość" style="height:200px"></textarea>
+                          <textarea id="subject" name="subject" placeholder="Napisz do nas wiadomość" style="height:200px" required></textarea>
                           <button class="button" type="submit" >wyślij</button>
                         </form>
                         <div class="contact-details-container">
