@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_types",
+  "info": {
+    "singularName": "menu-type",
+    "pluralName": "menu-types",
+    "displayName": "menuType",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "menu": {
+      "displayName": "Menu",
+      "type": "component",
+      "repeatable": true,
+      "component": "menus.menu"
+    }
+  }
+}

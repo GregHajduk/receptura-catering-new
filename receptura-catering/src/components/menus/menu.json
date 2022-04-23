@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_menus_menus",
+  "info": {
+    "displayName": "Menu",
+    "icon": "lemon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "positions": {
+      "type": "richtext"
+    },
+    "menuName": {
+      "type": "string"
+    }
+  }
+}
