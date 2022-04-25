@@ -204,8 +204,9 @@
 .menu-positions-wrapper.active {
   display: block;
 }
-.menu-position {
+.menu-positions {
   margin-bottom: 1rem;
+  line-height: 1.5;
 }
 
 /* ---------features--------- */

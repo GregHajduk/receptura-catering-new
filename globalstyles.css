@@ -34,7 +34,7 @@ h4 {
   padding: 7rem 2rem;
 }
 h2 {
-  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-size: clamp(1.65rem, 2.75vw, 2.5rem);
   line-height: 1.5;
   margin-bottom: 3rem;
   font-weight: 900;
