@@ -16,22 +16,23 @@ menu.addEventListener("click", (e) => {
 
 const url = "http://localhost:1337/api/menu-types?populate=menu";
 
+const togglers = document.querySelectorAll(".menu-item-toggler");
+
+if (togglers) {
+  togglers.forEach((toggler) => {
+    toggler.addEventListener("click", (e) => {
+      const menuItemWrapper =
+        e.currentTarget.parentElement.parentElement.children[1];
+      menuItemWrapper.classList.toggle("active");
+    });
+  });
+}
+
 const fetchMenus = async () => {
   const response = await fetch(url);
   const data = await response.json();
   renderMenuTypes(data.data);
 
-  const togglers = document.querySelectorAll(".menu-item-toggler");
-
-  if (togglers) {
-    togglers.forEach((toggler) => {
-      toggler.addEventListener("click", (e) => {
-        const menuItemWrapper =
-          e.currentTarget.parentElement.parentElement.children[1];
-        menuItemWrapper.classList.toggle("active");
-      });
-    });
-  }
 };
 fetchMenus();
 
