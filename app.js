@@ -32,8 +32,6 @@ const fetchMenus = async () => {
       });
     });
   }
-
-  console.log(togglers);
 };
 fetchMenus();
 
